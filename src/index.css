@@ -11,3 +11,98 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  max-width: 450px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  /* border: 1px solid steelblue; */
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.logo {
+  color: #222;
+  text-transform: uppercase;
+  font-family: 'Playfair display', serif;
+  font-size: 1.9em;
+
+}
+
+.logo > span {
+  color: orange;
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+}
+
+.menu li{
+  margin-right: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #222;
+  font-weight: 600;
+  
+}
+
+.menu li:nth-of-type(3){
+  margin-right: 0;
+}
+
+.btn {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: inherit;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active{
+  transform: scale(0.98);
+}
+
+.btn-block{
+  display: block;
+  width: 100%;
+}
+
+.btn-block{
+  display: block;
+  width: 100%;
+}
+
+
+.form-control {
+  margin: 20px 0;
+}
+
+.form-control label{
+  display: block;
+}
+
+.form-control input {
+  width: 100%;
+  height: 40px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 17px;
+}
